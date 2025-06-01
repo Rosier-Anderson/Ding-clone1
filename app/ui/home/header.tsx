@@ -1,6 +1,6 @@
 "use client"; // if using Next.js 13+ app directory
-import { navlinks } from "../type/type";
-import Logo from "../../public/logo.png";
+import { navlinks } from "../../type/type";
+import Logo from "../../../public/logo.png";
 import Link from "next/link";
 import Image from "next/image";
 import { FaAngleDown } from "react-icons/fa6";

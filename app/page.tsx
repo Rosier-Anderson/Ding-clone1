@@ -21,10 +21,10 @@ export default function Home() {
           {/* Hero section text (title and subtitle) */}
           <HeroText />
         </div>
-        <section className=" ">
-          <div className="border rounded-2xl ">
+        <section className="flex flexcol items-center justify-center font-bold text-center p-4">
+          <div className="border rounded-2xl  ">
             <h1 className="">Ready to send a top-up?</h1>
-            <form action="">
+            <form action="flex flex-col items-center justify-center p-4">
               <input
                 type="text"
                 name="top-up-number"

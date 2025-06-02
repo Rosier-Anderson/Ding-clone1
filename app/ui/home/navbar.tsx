@@ -1,14 +1,15 @@
-"use client"; // if using Next.js 13+ app directory
+"use client"; // Next.js 13+
 import { navlinks } from "../../type/type";
 import Logo from "../../../public/logo.png";
 import Link from "next/link";
 import Image from "next/image";
 import { FaAngleDown } from "react-icons/fa6";
 import { TbFlag3Filled } from "react-icons/tb";
+import { RxHamburgerMenu } from "react-icons/rx";
 import React from "react";
 import { useEffect, useState } from "react";
 
-export default function Header() {
+export default function Navbar() {
   const [scrolled, setScrolled] = useState<boolean>(false);
   useEffect(() => {
     const handleScroll = () => {
@@ -71,7 +72,8 @@ export default function Header() {
         className={` text-center   ${scrolled ? " " : "text-white "}`}
       />
       <div className="w-64 h-1"></div>
-      <nav className="">
+      <RxHamburgerMenu className="lg:hidden" />
+      <nav className="max-lg:hidden">
         <ul className="flex items-center justify-center gap-8 whitespace-nowrap ">
           {Navlinks.map((link, index) => {
             return (

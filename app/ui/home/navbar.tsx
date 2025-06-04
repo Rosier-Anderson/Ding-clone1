@@ -27,20 +27,20 @@ export default function Navbar() {
     },
     {
       name: "Receive",
-      href: "/receive",
+      href: "/#receive",
     },
     {
       name: "Receive Gift Cards",
-      href: "/gift-cards",
+      href: "/#gift-cards",
     },
     {
       name: "Company",
-      href: "/company",
+      href: "/#company",
       icon: <FaAngleDown />,
     },
     {
       name: "Help",
-      href: "/help",
+      href: "/#help",
     },
     {
       name: "EN",
@@ -83,7 +83,7 @@ export default function Navbar() {
               >
                 <Link
                   href={link.href}
-                  className="flex items-center justify-center gap-2 "
+                  className="flex items-center justify-center gap-2 hover:border-b hover:border-b-sky-900 "
                 >
                   {" "}
                   {link.iconFlag}

@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 
-export default {
+const config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,7 +9,12 @@ export default {
   theme: {
     extend: {
       fontFamily: { inter: ["var(--font-inter)"] },
+      colors: {
+        limeBright: "#CBF200",
+      },
     },
   },
   plugins: [],
 } satisfies Config;
+
+export default config;

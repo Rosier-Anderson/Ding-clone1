@@ -5,9 +5,9 @@ const HeaderBackground = () => {
   return (
     <Image
       src={HeaderBgImage}
-      className="object-cover"
-      alt="the header-image background"
-      fill
+      className="object-center lg:object-cover flex-1"
+      alt="the header-image background flexible image"
+   
       priority
     />
   );

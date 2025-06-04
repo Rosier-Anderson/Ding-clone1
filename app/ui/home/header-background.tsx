@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HeaderBgImage from "../../../public/header-bg-image.jpg";
+import HeaderBgImage from "../../../public/assets/images/header-bg-image.jpg";
 
 const HeaderBackground = () => {
   return (

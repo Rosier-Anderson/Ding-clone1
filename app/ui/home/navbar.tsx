@@ -1,6 +1,6 @@
 "use client"; // Next.js 13+
 import { navlinks } from "../../type/type";
-import Logo from "../../../public/logo.png";
+import Logo from "../../../public/assets/images/logo.png";
 import Link from "next/link";
 import Image from "next/image";
 import { FaAngleDown } from "react-icons/fa6";
@@ -58,7 +58,7 @@ export default function Navbar() {
 
   return (
     <header
-      className={` flex items-center justify-center text-sm/6  h-20 w-full fixed  z-50 transition-colors duration-300   text-cyan-900 font-semibold  ${
+      className={`absolute flex items-center justify-center text-sm/6  h-20 w-full  z-50 transition-colors duration-300   text-cyan-900 font-semibold  ${
         scrolled ? "bg-white shadow-md" : "bg-transparent text-white "
       }`}
     >

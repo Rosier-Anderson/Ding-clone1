@@ -4,7 +4,7 @@ import { CgSearch } from "react-icons/cg";
 export default function TopUpForm() {
   return (
     <section className="relative z-50 font-bold text-center text-sky-900 p-4 bg-white -mt-10 rounded-t-2xl sm:rounded-t-[50px] ">
-      <div className="border rounded-3xl mx-auto my-8 max-w-[450px]">
+      <div className="border rounded-3xl mx-auto mt-8 max-w-[450px]">
         <form
           action="#top-up-form"
           className="w-full flex flex-col items-center justify-center p-4"

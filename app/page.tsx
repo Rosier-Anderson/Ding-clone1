@@ -5,6 +5,7 @@ import Navbar from "./ui/home/navbar";
 import TopUpForm from "./ui/home/top-up-form";
 import TrustPilotBadge from "./ui/home/TrustPilotBadge";
 import AppDownloadSection from "./ui/home/AppDownloadSection";
+import TestimonialsSection from "./ui/home/TestimonialsSection";
 // Main homepage component
 export default function Home() {
   return (
@@ -21,11 +22,14 @@ export default function Home() {
         </div>
         {/* Top-up form section */}
         <TopUpForm />
+        <TrustPilotBadge />
         {/* TrustPilot badge and app download section */}
-        <section className=" ">
-         <TrustPilotBadge />
+        <section className="  flex flex-col items-center justify-center gap-2 pt-4 ">
+          {/* TrustPilot badge for social proof */}
           <AppDownloadSection />
-        </section>
+        </section>{" "}
+        {/* Testimonials section for user feedback */}
+        <TestimonialsSection />
       </main>
     </div>
   );

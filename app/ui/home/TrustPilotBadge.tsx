@@ -4,7 +4,7 @@ import trustPilot from ".././../../public/assets/images/trust-pilot.png"
 
 export default function TrustPilotBadge() {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center ">
       <Image
         src={trustPilot}
         alt="trust-pilot picture"

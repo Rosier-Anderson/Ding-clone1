@@ -58,7 +58,7 @@ export default function Navbar() {
 
   return (
     <header
-      className={`absolute flex items-center justify-center text-sm/6  h-20 w-full  z-50 transition-colors duration-300   text-cyan-900 font-semibold  ${
+      className={`fixed flex items-center justify-center text-sm/6  h-20 w-full  z-50  transition-colors duration-300   text-cyan-900 font-semibold  ${
         scrolled ? "bg-white shadow-md" : "bg-transparent text-white "
       }`}
     >
@@ -72,7 +72,7 @@ export default function Navbar() {
         className={` text-center   ${scrolled ? " " : "text-white "}`}
       />
       <div className="w-64 h-1"></div>
-      <RxHamburgerMenu className="lg:hidden" />
+      <RxHamburgerMenu className="lg:hidden w-6 h-6" />
       <nav className="max-lg:hidden">
         <ul className="flex items-center justify-center gap-8 whitespace-nowrap ">
           {Navlinks.map((link, index) => {

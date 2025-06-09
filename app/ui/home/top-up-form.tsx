@@ -3,13 +3,13 @@ import { CgSearch } from "react-icons/cg";
 
 export default function TopUpForm() {
   return (
-    <section className="relative z-50 font-bold text-center text-sky-900 p-4 bg-white -mt-10 rounded-t-2xl sm:rounded-t-[50px] ">
+    <section className="relative  font-bold text-center text-sky-900 p-4 -mt-10 rounded-t-3xl sm:rounded-t-[50px]  bg-white ">
       <div className="border rounded-3xl mx-auto mt-8 max-w-[450px]">
         <form
           action="#top-up-form"
           className="w-full flex flex-col items-center justify-center p-4"
         >
-          <h1 className="font-bold text-lg">Ready to send a top-up?</h1>
+          <h1 className="font-bold text-lg ">Ready to send a top-up?</h1>
 
           <div className="flex items-center w-full rounded-full border border-gray-300 p-3 m-4 focus-within:border-limeBright focus-within:shadow-sm focus-within:ring-2">
             <CgSearch />

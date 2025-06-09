@@ -9,7 +9,7 @@ export default function AppDownloadSection() {
       {/* App download section with text and images */}
       <div className="flex flex-col items-start justify-center m-4 gap-4 w-full ">
         <h1 className=" font-extrabold ">Top-up wherever, whenever</h1>
-        <h5 className="font-bold text-sm">
+        <h5 className="font-bold text-sm max-w-72">
           Get the Ding App for the fastest, easiest way to top-up any phone.
         </h5>
         <div className="flex items-center justify-start  sm:justify-center gap-4 ">
@@ -35,7 +35,7 @@ export default function AppDownloadSection() {
       <div className=" mt-4  mx-auto ">
         <Image
           src={AppBanner}
-          width={300}
+          width={350}
           height={200}
           alt="Phone with Ding App"
           className="object-cover  "

@@ -12,7 +12,7 @@ export default function Home() {
     <div className="min-h-screen bg-white ">
       <main className="text-lg text-cyan-900 leading-2">
         {/* Hero section with fixed background image and overlaid content */}
-        <div className="relative  max-h-[450px] min-h-[300px] flex  bg-fixed z-0">
+        <div className="relative  max-h-[450px] min-h-[250px] flex  ">
           {/* Background image layer */}
           <HeaderBackground />
           {/* Navigation/header component and links  */}

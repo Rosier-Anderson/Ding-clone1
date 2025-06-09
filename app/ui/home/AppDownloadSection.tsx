@@ -5,7 +5,7 @@ import LogoAppStore from "../../../public/assets/images/logo_appstores_iosappsto
 import AppBanner from "../../../public/assets/images/app_banner.webp";
 export default function AppDownloadSection() {
   return (
-    <div className="flex flex-col sm:flex-row items-start justify-between bg-teal-100 max-w-[700px] rounded-2xl gap-4 m-4 p-8 pb-0  ">
+    <div className="flex flex-col sm:flex-row items-center  justify-between bg-teal-100 max-w-[700px] rounded-2xl gap-4 m-6 p-8 pb-0  ">
       {/* App download section with text and images */}
       <div className="flex flex-col items-start justify-center m-4 gap-4 w-full ">
         <h1 className=" font-extrabold ">Top-up wherever, whenever</h1>
@@ -16,7 +16,7 @@ export default function AppDownloadSection() {
           <Image
             src={LogoAppStore}
             alt="App Store"
-               width={150}
+            width={150}
             height={70}
             loading="lazy"
             className="rounded-md object-contain "
@@ -32,7 +32,7 @@ export default function AppDownloadSection() {
         </div>
       </div>
       {/* AppBanner Iamge */}
-      <div className=" mt-4">
+      <div className=" mt-4  mx-auto ">
         <Image
           src={AppBanner}
           width={300}
